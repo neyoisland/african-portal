@@ -1,0 +1,465 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: orange;
+    height: 50px;
+}
+
+.header2{
+    background-color: black;
+    height: 50px;
+    overflow: hidden;
+    display: block;
+}
+.page{
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.5)
+      ),url('../images/header.jpg') no-repeat;
+    background-size: cover;
+    height: 605px;
+}
+#logo{
+    margin-left: 20px;
+    position: absolute;
+}
+
+#menu{
+    margin-left: 480px;
+    color: azure;
+}
+#us{
+    margin-left: 15px;
+    color: azure; 
+}
+#cul{
+    margin-left: 15px;
+    color: azure; 
+}
+#ethnic{
+    margin-left: 15px;
+    color: azure; 
+}
+#art{
+    margin-left: 15px;
+    color: azure; 
+}
+#don{
+    margin-left: 15px;
+    margin-right: 65px;
+    color: azure; 
+}
+#morning{
+    font-size: 30px;
+    font: bolder;
+    padding: 19px;
+    margin: 69px;
+    color: black;
+}
+#morning1{
+    margin-top: 22px;
+    margin-right: 34px;
+    margin-left: 40px;
+}
+#morning2{
+    font-size: 30px;
+    font: bolder;
+
+    color: orange;
+}
+#search{
+    margin-left: 400px;
+    border: none;
+    height: 30px;
+    width: 290px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#log{
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background: red;
+    color: aliceblue;
+    font-size: 20px;
+}
+.word{
+    margin-left: 90px;
+    margin: 50px;
+    height: 350px;
+    width: 450px;
+}
+#promote{
+    color: orange;
+    font: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#make{
+    color: white;
+    font-size: 30px;
+}
+#get{
+    border: none;
+    height: 45px;
+    width: 180px;
+    border-radius: 15px;
+    background: orange;
+    color: aliceblue;
+    font-size: 15px;
+    margin-right: 40px;
+}
+#donate{
+    border: 13;
+    border-color: orange;
+    height: 45px;
+    width: 180px;
+    border-radius: 15px;
+    background: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+}
+a:hover{
+    background-color: orange;
+    
+}
+.container{
+    display: flex;
+    background-color: white;
+    height: 650px;
+}
+#img{
+    margin-top: 158px;
+    height: 400px;
+    width: 490px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+#since{
+    margin-top: 70px;
+    height: 400px;
+    width: 620px;
+}
+#char{
+    font-size: 20px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#wel{
+    color: black;
+    font-size: 30px;
+    margin-left: 400px;
+}
+#charl{
+    color: black;
+    font-size: 25px;
+    margin-left: 515px;
+}
+u{
+    color: orange;
+}
+.container2{
+    display: flex;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url('../images/annie-spratt-0cgpyigyIkM-unsplash.jpg') no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+#across{
+    margin: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font: bold;
+}
+#across2{
+    width: 500px;
+    margin: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font: bold;
+}
+
+#helps{
+    margin-left: 70px;
+    color:orange;
+    font-size: 32px;
+}
+#num{
+    margin: 60px; 
+}
+#num2{
+    border-radius: 12px;
+    width: 400px;
+    height: 600px;
+    margin: 60px;
+    background-color: white;
+    opacity: .9; 
+}
+#name{
+    border-block-start: 5px 2px;
+    border-block-end-color: green;
+    margin-left: 21px;
+    width: 350px;
+    height: 33px;;
+}
+.ccvv{
+    float: left;
+    margin-top: 25px;
+}
+#name2{
+    margin-left: 21px;
+    width: 100px;
+    height: 33px;;
+}
+#hun{
+    margin-left: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font: bold;
+}
+#pple{
+    margin-left: 16px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
+    font: bold;
+}
+#hun2{
+    margin-left: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font: bold;
+}
+#pple2{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
+    font: bold;
+}
+#afrim{
+    font-size: 16px;
+    color: black;
+}
+.container3{
+    display: flex;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url('../images/header1.jpg') no-repeat;
+    background-size: cover;
+    height: 690px;
+    opacity: 8;
+}
+.container4{
+    display: flex;
+    background-color: #014127;
+    height: 350px;
+}
+#donate2{
+    margin-left: 90px;
+    background-color: orange;
+    height: 45px;
+    width: 180px;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 15px;
+}
+#bar1{
+    margin-top: 80px;
+    background: orange;
+    margin-left: 100px;
+    height: 34px;
+    width: 290px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+#epa{
+    margin: 14px;
+    margin-left: 15px;
+}
+#bar{
+    display: flex;
+    height: 454px;
+    background-color: grey;
+    opacity: .7;
+}
+#but{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+#afrim{
+    background-color: white;
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 12px;
+}
+.contain{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url('../images/mapafrica.webp') no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.contain1{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url('../images/bailey-torres-QtdmeVaGicc-unsplash.jpg') no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.contain2{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.4)
+      ), url('../images/angola.jpg') no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.contain3{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url('../images/ijoya3.jpg') no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+#contact{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+#contact2{
+    width: 200px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 35px;
+}
+#contact3{
+    width: 390px;
+    height: 270px;
+    margin-left: 6px;
+    margin-top: 35px;
+}
+#mysearch{
+    width: 270px;
+    height: 33px;
+}
+#mysearch2{
+    width: 99px;
+    height: 39px;
+    color: antiquewhite;
+    background: orange;
+    border: none;
+}
+#sponsor{
+    margin-left: 50px;
+    font-size: 50px;
+    color: white;
+}
+#im1{
+    margin-left: 20px;
+    margin-right: 15px;
+}
+#im2{
+    margin-left: 20px;
+    margin-right: 23px;
+}
+#ims1{
+    color: white;
+    margin-left: 30px;
+    margin-right: 23px;
+}
+#ims2{
+    color: white;
+    margin-left: 60px;
+    margin-right: 23px;
+}
+#ims3{
+    color: white;
+    margin-left: 60px;
+    margin-right: 23px;
+}
+#cnt{
+    font-size: 25px;
+    color: orange;
+    font: bold;
+    margin-left: 50px;
+}
+#cnt2{
+    font-size: 25px;
+    color: orange;
+    font: bold;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+#myart{
+    color: white;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+#hod{
+    margin-top: 60px;
+}
+
+#can{
+    color: white;
+    margin-left: 400px;
+}
+#rich{
+    margin-left: 350px;
+    color: orange;
+}
+.cont{
+    display: flex;
+}
+#email{
+    font-size: 23px;
+    color: white;
+    margin-left: 23px;
+}
+#nxt{
+    font-size: 23px;
+    color: white;
+    margin-left: 44px;
+}
+#quote{
+    color: white;
+    font-size: 22px;
+}
+#sayno{
+    margin-top: 140px;
+    height: 50px;
+    background: white;
+    opacity: .6;
+    color: black;
+    font-size: 18px;
+}
+#xeno{
+    margin-top: 14px;
+}
